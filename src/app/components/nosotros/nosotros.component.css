@@ -1,0 +1,32 @@
+header{
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+h1{
+  text-align: center;
+  border-bottom: 5px solid #000;
+  padding-bottom: 10px;
+  margin: 30px 100px;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 500px;
+}
+p{
+  height: 100%;
+  font-size: 50px;
+  font-weight: 100;
+  box-sizing: border-box;
+  padding: 15px;
+}
+video{
+  min-height: 700px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
